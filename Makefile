@@ -2,7 +2,7 @@
 JOBNAME=urmmd
 SRCDIR=src/
 MAINTEX=main.tex
-PARTINDEX=part*.tex
+PARTINDEX=body.tex
 CHAPTERCONTENTS=chapters/ch*.tex
 SECTIONCONTENTS=sections/ch*/sec*.tex
 TEXSRCS=$(SRCDIR)$(MAINTEX) $(SRCDIR)$(PARTINDEX) $(SRCDIR)$(CHAPTERCONTENTS) \
